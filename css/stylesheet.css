@@ -46,3 +46,10 @@ body{
   border: 5px dotted white;
   padding: 20px;
 }
+
+.btn {
+  color: green;
+  background-color: purple;
+  border: 6px dotted yellow;
+  font-size: 22px;
+}
