@@ -1,3 +1,48 @@
 img {
   width: 300px;
 }
+
+h1{
+  text-align: center;
+  font-family: verdana;
+  font: bold;
+  font-style: italic;
+  background-color: white;
+  font-size: 44px;
+}
+h2 {
+  font-size: 44px;
+  text-align: center;
+  color: #5283d3;
+  font-family: verdana;
+}
+.well{
+  background: repeating-linear-gradient(#083b8e, white 10%, grey 20%)
+}
+
+p {
+  font-size: 22px;
+  padding: 4px;
+  font-family: verdana;
+  border: 4px dotted blue;
+  margin: 8px;
+  background: white;
+}
+
+body{
+  background-image: url("Treehouse.jpg");
+}
+
+.label {
+  padding: 10px;
+  margin: 10px;
+  color: blue;
+}
+
+.glyphicon {
+  font-size: 180px;
+  background: repeating-linear-gradient(#083b8e, white 10%, grey 20%);
+  color: blue;
+  border: 5px dotted white;
+  padding: 20px;
+}
