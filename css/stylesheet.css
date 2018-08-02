@@ -1,55 +1,68 @@
 img {
   width: 300px;
+  height: 300px;
 }
 
 h1{
   text-align: center;
-  font-family: verdana;
+  font-family: impact, fantasy;
   font: bold;
   font-style: italic;
   background-color: white;
-  font-size: 44px;
+  font-size: 80px;
+  text-emphasis-color: pink;
 }
 h2 {
   font-size: 44px;
   text-align: center;
-  color: #5283d3;
-  font-family: verdana;
+  color: white;
+  font-family: sans-serif;
+  border: 2px solid white;
 }
 .well{
-  background: repeating-linear-gradient(#083b8e, white 10%, grey 20%)
+  background: pink
 }
 
 p {
   font-size: 22px;
   padding: 4px;
   font-family: verdana;
-  border: 4px dotted blue;
+  border: 4px double white;
   margin: 8px;
-  background: white;
+  text-align: center;
 }
 
 body{
-  background-image: url("Treehouse.jpg");
+  background-image: url("sky2.jpg");
+  background-repeat: no-repeat;
 }
 
 .label {
   padding: 10px;
   margin: 10px;
-  color: blue;
+  color: white;
 }
 
 .glyphicon {
-  font-size: 180px;
-  background: repeating-linear-gradient(#083b8e, white 10%, grey 20%);
-  color: blue;
-  border: 5px dotted white;
+  font-size: 150px;
+  color: #e2b1e0;
+  border: 5px double white;
   padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 80px;
+  margin-left: 20px;
+
 }
 
 .btn {
-  color: green;
-  background-color: purple;
-  border: 6px dotted yellow;
+  color: pink;
+  background-color: white;
+  border: 6px solid white;
   font-size: 22px;
+}
+
+iframe{
+  border: 20px solid pink;
+  margin-top: 20px;
+  margin-left: 340px;
 }
